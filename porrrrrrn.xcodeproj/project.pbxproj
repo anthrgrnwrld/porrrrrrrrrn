@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3613D3961DE98C10000C8392 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3951DE98C0F000C8392 /* AdSupport.framework */; };
+		3613D3981DE98C1B000C8392 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3971DE98C1B000C8392 /* AudioToolbox.framework */; };
+		3613D39A1DE98C35000C8392 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3991DE98C35000C8392 /* CoreGraphics.framework */; };
+		3613D39C1DE98C42000C8392 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D39B1DE98C42000C8392 /* CoreTelephony.framework */; };
+		3613D39E1DE98C4F000C8392 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D39D1DE98C4F000C8392 /* EventKit.framework */; };
+		3613D3A01DE98C59000C8392 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D39F1DE98C59000C8392 /* EventKitUI.framework */; };
+		3613D3A21DE98C66000C8392 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3A11DE98C66000C8392 /* MessageUI.framework */; };
+		3613D3A41DE98C76000C8392 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3A31DE98C76000C8392 /* SystemConfiguration.framework */; };
+		3613D3A61DE99346000C8392 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613D3A51DE99346000C8392 /* GoogleMobileAds.framework */; };
+		3613D3A91DE9EFBE000C8392 /* reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3A71DE9EFBE000C8392 /* reset@2x.png */; };
+		3613D3AA1DE9EFBE000C8392 /* reset@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3A81DE9EFBE000C8392 /* reset@3x.png */; };
+		3613D3AD1DE9EFDB000C8392 /* porn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3AB1DE9EFDB000C8392 /* porn@2x.png */; };
+		3613D3AE1DE9EFDB000C8392 /* porn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3AC1DE9EFDB000C8392 /* porn@3x.png */; };
+		3613D3BA1DEC2414000C8392 /* initial_logo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3B81DEC2414000C8392 /* initial_logo@2x.jpg */; };
+		3613D3BB1DEC2414000C8392 /* initial_logo@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3B91DEC2414000C8392 /* initial_logo@3x.jpg */; };
+		3613D3BD1DEC99CE000C8392 /* porn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3613D3BC1DEC9936000C8392 /* porn.m4a */; };
 		3683C3191DE6F6B700995ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683C3181DE6F6B700995ADB /* AppDelegate.swift */; };
 		3683C31B1DE6F6B700995ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683C31A1DE6F6B700995ADB /* ViewController.swift */; };
 		3683C31E1DE6F6B700995ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3683C31C1DE6F6B700995ADB /* Main.storyboard */; };
@@ -14,6 +30,13 @@
 		3683C3231DE6F6B700995ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3683C3211DE6F6B700995ADB /* LaunchScreen.storyboard */; };
 		3683C32E1DE6F6B800995ADB /* porrrrrrnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683C32D1DE6F6B800995ADB /* porrrrrrnTests.swift */; };
 		3683C3391DE6F6B800995ADB /* porrrrrrnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683C3381DE6F6B800995ADB /* porrrrrrnUITests.swift */; };
+		3683C3491DE7E99E00995ADB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683C3481DE7E99E00995ADB /* AVFoundation.framework */; };
+		3683C34F1DE82F1200995ADB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683C34E1DE82F1200995ADB /* MediaPlayer.framework */; };
+		3683C3511DE82F1A00995ADB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683C3501DE82F1A00995ADB /* StoreKit.framework */; };
+		3683C3581DE8A11100995ADB /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683C3561DE8A11100995ADB /* logo@2x.png */; };
+		3683C3591DE8A11100995ADB /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683C3571DE8A11100995ADB /* logo@3x.png */; };
+		3683C3681DE93C5600995ADB /* kai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683C3661DE93C5600995ADB /* kai@2x.png */; };
+		3683C3691DE93C5600995ADB /* kai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683C3671DE93C5600995ADB /* kai@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3613D3931DE98B05000C8392 /* GoogleMobileAdsSdkiOS-7.15.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleMobileAdsSdkiOS-7.15.0"; sourceTree = "<group>"; };
+		3613D3951DE98C0F000C8392 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3613D3971DE98C1B000C8392 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3613D3991DE98C35000C8392 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3613D39B1DE98C42000C8392 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3613D39D1DE98C4F000C8392 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3613D39F1DE98C59000C8392 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		3613D3A11DE98C66000C8392 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3613D3A31DE98C76000C8392 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3613D3A51DE99346000C8392 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.15.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		3613D3A71DE9EFBE000C8392 /* reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset@2x.png"; sourceTree = "<group>"; };
+		3613D3A81DE9EFBE000C8392 /* reset@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset@3x.png"; sourceTree = "<group>"; };
+		3613D3AB1DE9EFDB000C8392 /* porn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "porn@2x.png"; sourceTree = "<group>"; };
+		3613D3AC1DE9EFDB000C8392 /* porn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "porn@3x.png"; sourceTree = "<group>"; };
+		3613D3B81DEC2414000C8392 /* initial_logo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "initial_logo@2x.jpg"; sourceTree = "<group>"; };
+		3613D3B91DEC2414000C8392 /* initial_logo@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "initial_logo@3x.jpg"; sourceTree = "<group>"; };
+		3613D3BC1DEC9936000C8392 /* porn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = porn.m4a; sourceTree = "<group>"; };
 		3683C3151DE6F6B700995ADB /* porrrrrrn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = porrrrrrn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3683C3181DE6F6B700995ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3683C31A1DE6F6B700995ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +87,13 @@
 		3683C3341DE6F6B800995ADB /* porrrrrrnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = porrrrrrnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3683C3381DE6F6B800995ADB /* porrrrrrnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = porrrrrrnUITests.swift; sourceTree = "<group>"; };
 		3683C33A1DE6F6B800995ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3683C3481DE7E99E00995ADB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3683C34E1DE82F1200995ADB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3683C3501DE82F1A00995ADB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3683C3561DE8A11100995ADB /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		3683C3571DE8A11100995ADB /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		3683C3661DE93C5600995ADB /* kai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kai@2x.png"; sourceTree = "<group>"; };
+		3683C3671DE93C5600995ADB /* kai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kai@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3613D3A61DE99346000C8392 /* GoogleMobileAds.framework in Frameworks */,
+				3613D3A41DE98C76000C8392 /* SystemConfiguration.framework in Frameworks */,
+				3613D3A21DE98C66000C8392 /* MessageUI.framework in Frameworks */,
+				3613D3A01DE98C59000C8392 /* EventKitUI.framework in Frameworks */,
+				3613D39E1DE98C4F000C8392 /* EventKit.framework in Frameworks */,
+				3613D39C1DE98C42000C8392 /* CoreTelephony.framework in Frameworks */,
+				3613D39A1DE98C35000C8392 /* CoreGraphics.framework in Frameworks */,
+				3683C3491DE7E99E00995ADB /* AVFoundation.framework in Frameworks */,
+				3613D3981DE98C1B000C8392 /* AudioToolbox.framework in Frameworks */,
+				3613D3961DE98C10000C8392 /* AdSupport.framework in Frameworks */,
+				3683C3511DE82F1A00995ADB /* StoreKit.framework in Frameworks */,
+				3683C34F1DE82F1200995ADB /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +136,12 @@
 		3683C30C1DE6F6B700995ADB = {
 			isa = PBXGroup;
 			children = (
+				3613D3931DE98B05000C8392 /* GoogleMobileAdsSdkiOS-7.15.0 */,
 				3683C3171DE6F6B700995ADB /* porrrrrrn */,
 				3683C32C1DE6F6B800995ADB /* porrrrrrnTests */,
 				3683C3371DE6F6B800995ADB /* porrrrrrnUITests */,
 				3683C3161DE6F6B700995ADB /* Products */,
+				3683C3471DE7E99D00995ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +164,17 @@
 				3683C31F1DE6F6B700995ADB /* Assets.xcassets */,
 				3683C3211DE6F6B700995ADB /* LaunchScreen.storyboard */,
 				3683C3241DE6F6B700995ADB /* Info.plist */,
+				3683C3561DE8A11100995ADB /* logo@2x.png */,
+				3683C3571DE8A11100995ADB /* logo@3x.png */,
+				3683C3661DE93C5600995ADB /* kai@2x.png */,
+				3683C3671DE93C5600995ADB /* kai@3x.png */,
+				3613D3A71DE9EFBE000C8392 /* reset@2x.png */,
+				3613D3A81DE9EFBE000C8392 /* reset@3x.png */,
+				3613D3AB1DE9EFDB000C8392 /* porn@2x.png */,
+				3613D3AC1DE9EFDB000C8392 /* porn@3x.png */,
+				3613D3BC1DEC9936000C8392 /* porn.m4a */,
+				3613D3B81DEC2414000C8392 /* initial_logo@2x.jpg */,
+				3613D3B91DEC2414000C8392 /* initial_logo@3x.jpg */,
 			);
 			path = porrrrrrn;
 			sourceTree = "<group>";
@@ -123,6 +195,25 @@
 				3683C33A1DE6F6B800995ADB /* Info.plist */,
 			);
 			path = porrrrrrnUITests;
+			sourceTree = "<group>";
+		};
+		3683C3471DE7E99D00995ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3613D3A51DE99346000C8392 /* GoogleMobileAds.framework */,
+				3613D3A31DE98C76000C8392 /* SystemConfiguration.framework */,
+				3613D3A11DE98C66000C8392 /* MessageUI.framework */,
+				3613D39F1DE98C59000C8392 /* EventKitUI.framework */,
+				3613D39D1DE98C4F000C8392 /* EventKit.framework */,
+				3613D39B1DE98C42000C8392 /* CoreTelephony.framework */,
+				3613D3991DE98C35000C8392 /* CoreGraphics.framework */,
+				3613D3971DE98C1B000C8392 /* AudioToolbox.framework */,
+				3613D3951DE98C0F000C8392 /* AdSupport.framework */,
+				3683C3501DE82F1A00995ADB /* StoreKit.framework */,
+				3683C34E1DE82F1200995ADB /* MediaPlayer.framework */,
+				3683C3481DE7E99E00995ADB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +326,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3613D3A91DE9EFBE000C8392 /* reset@2x.png in Resources */,
+				3613D3BD1DEC99CE000C8392 /* porn.m4a in Resources */,
+				3683C3591DE8A11100995ADB /* logo@3x.png in Resources */,
+				3683C3581DE8A11100995ADB /* logo@2x.png in Resources */,
+				3683C3681DE93C5600995ADB /* kai@2x.png in Resources */,
+				3613D3BA1DEC2414000C8392 /* initial_logo@2x.jpg in Resources */,
 				3683C3231DE6F6B700995ADB /* LaunchScreen.storyboard in Resources */,
 				3683C3201DE6F6B700995ADB /* Assets.xcassets in Resources */,
+				3613D3AE1DE9EFDB000C8392 /* porn@3x.png in Resources */,
+				3613D3BB1DEC2414000C8392 /* initial_logo@3x.jpg in Resources */,
+				3613D3AD1DE9EFDB000C8392 /* porn@2x.png in Resources */,
 				3683C31E1DE6F6B700995ADB /* Main.storyboard in Resources */,
+				3683C3691DE93C5600995ADB /* kai@3x.png in Resources */,
+				3613D3AA1DE9EFBE000C8392 /* reset@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,6 +516,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.15.0",
+				);
 				INFOPLIST_FILE = porrrrrrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.porrrrrrn;
@@ -427,6 +534,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WBV73EJ8V2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.15.0",
+				);
 				INFOPLIST_FILE = porrrrrrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.porrrrrrn;
@@ -512,6 +624,7 @@
 				3683C33F1DE6F6B800995ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3683C3401DE6F6B800995ADB /* Build configuration list for PBXNativeTarget "porrrrrrnTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +633,7 @@
 				3683C3421DE6F6B800995ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3683C3431DE6F6B800995ADB /* Build configuration list for PBXNativeTarget "porrrrrrnUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +642,7 @@
 				3683C3451DE6F6B800995ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

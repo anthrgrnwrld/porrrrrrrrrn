@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="porrrrrrn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,95 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urc-on-ECq">
+                                <rect key="frame" x="94" y="393.5" width="187.5" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Urc-on-ECq" secondAttribute="height" multiplier="187:80" id="g9p-ik-nZA"/>
+                                </constraints>
+                                <state key="normal" image="porn.png"/>
+                                <connections>
+                                    <action selector="pressPornButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6DE-MK-YKY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="mTx-c1-5aU">
+                                <rect key="frame" x="19" y="144.5" width="337.5" height="111"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vD-qN-hSO">
+                                <rect key="frame" x="0.0" y="289" width="182" height="55.5"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kai.png" translatesAutoresizingMaskIntoConstraints="NO" id="lmq-TO-84Y">
+                                <rect key="frame" x="197" y="289" width="56" height="55.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lmq-TO-84Y" secondAttribute="height" multiplier="1:1" id="HHQ-of-VTC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwK-Aw-Zr6">
+                                <rect key="frame" x="94" y="490.5" width="187.5" height="39.5"/>
+                                <state key="normal" image="reset.png"/>
+                                <connections>
+                                    <action selector="pressResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rg1-Ji-Aeb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpq-d5-xao">
+                                <rect key="frame" x="26.5" y="556" width="22" height="22"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="pressHowToUse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAc-qT-wQf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaF-ip-Ip2">
+                                <rect key="frame" x="246" y="552" width="108" height="30"/>
+                                <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <state key="normal" title="その他のアプリ"/>
+                                <connections>
+                                    <action selector="pressOtherAppButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWx-vy-6Db"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IwK-Aw-Zr6" firstAttribute="centerX" secondItem="Urc-on-ECq" secondAttribute="centerX" id="0r5-Ms-w5J"/>
+                            <constraint firstItem="5vD-qN-hSO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.95" id="1o5-Xx-LSv"/>
+                            <constraint firstItem="xpq-d5-xao" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="4Rc-l1-HtP"/>
+                            <constraint firstItem="xpq-d5-xao" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.2" id="CCX-Hh-lLq"/>
+                            <constraint firstItem="IwK-Aw-Zr6" firstAttribute="width" secondItem="Urc-on-ECq" secondAttribute="width" id="Hdd-1a-k3N"/>
+                            <constraint firstItem="mTx-c1-5aU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.6" id="SnP-QR-AIT"/>
+                            <constraint firstItem="IwK-Aw-Zr6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.53" id="SyI-Mm-GRa"/>
+                            <constraint firstItem="BaF-ip-Ip2" firstAttribute="centerY" secondItem="xpq-d5-xao" secondAttribute="centerY" id="UCA-mh-mw7"/>
+                            <constraint firstItem="mTx-c1-5aU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wyb-Ma-ouS"/>
+                            <constraint firstItem="mTx-c1-5aU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="YBy-rb-KPv"/>
+                            <constraint firstItem="Urc-on-ECq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.3" id="Zce-sT-Y0L"/>
+                            <constraint firstItem="mTx-c1-5aU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/6" id="aXv-MV-Jbg"/>
+                            <constraint firstItem="BaF-ip-Ip2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.6" id="ajd-Oq-Uby"/>
+                            <constraint firstItem="5vD-qN-hSO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aqT-Pm-ylx"/>
+                            <constraint firstItem="Urc-on-ECq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bup-P0-tJD"/>
+                            <constraint firstItem="5vD-qN-hSO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.97/2" id="eoe-mI-fu1"/>
+                            <constraint firstItem="lmq-TO-84Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.2" id="iBA-Vv-fMb"/>
+                            <constraint firstItem="5vD-qN-hSO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/12" id="j94-No-2j4"/>
+                            <constraint firstItem="lmq-TO-84Y" firstAttribute="centerY" secondItem="5vD-qN-hSO" secondAttribute="centerY" id="l0q-3c-JNu"/>
+                            <constraint firstItem="IwK-Aw-Zr6" firstAttribute="height" secondItem="Urc-on-ECq" secondAttribute="height" multiplier="1/2" id="rUs-2L-SP0"/>
+                            <constraint firstItem="lmq-TO-84Y" firstAttribute="height" secondItem="5vD-qN-hSO" secondAttribute="height" id="xc2-8V-cup"/>
+                            <constraint firstItem="Urc-on-ECq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1/2" id="xly-ky-VIj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="countLabel" destination="5vD-qN-hSO" id="xyM-hx-QK7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kai.png" width="54" height="54"/>
+        <image name="logo.png" width="282" height="92"/>
+        <image name="porn.png" width="188" height="80"/>
+        <image name="reset.png" width="188" height="40"/>
+    </resources>
 </document>
